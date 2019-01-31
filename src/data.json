@@ -1,0 +1,105 @@
+{
+  "title": "Hello I'm Roghaye!",
+  "subtitle": "Full Stack Dev | Teacher",
+  "links": {
+    "github": "https://github.com/rgasgari",
+    "google_plus": "https://aboutme.google.com/"
+  },
+  "sections": [
+    {
+      "title": "About",
+      "items":[
+        {
+          "type": "P",
+          "contents": "I like learning all things about full stack development. I started with W3CSS, Bootstrap. After that i went to learn Laravel framework. Now i learning React and Angular."
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "items":[
+        {
+          "type": "card",
+          "contents": {
+            "image": "images/jquery.png",
+            "title": "JQuery"
+          }
+        },
+        {
+          "type": "card",
+          "contents": {
+            "image": "images/bootstrap.png",
+            "title": "Bootstrap"
+          }
+        },
+        {
+          "type": "card",
+          "contents": {
+            "image": "images/laravel.png",
+            "title": "Laravel"
+          }
+        },
+        {
+          "type": "card",
+          "contents": {
+            "image": "images/html.png",
+            "title": "HTML"
+          }
+        },
+        {
+          "type": "card",
+          "contents": {
+            "image": "images/css.png",
+            "title": "CSS"
+          }
+        },
+        {
+          "type": "card",
+          "contents": {
+            "image": "images/javascript.png",
+            "title": "JavaScript"
+          }
+        }
+      ]
+    }
+  ],
+  "nav_items": {
+    "links":[
+      {
+        "type": "link",
+        "to": "skills",
+        "title": "Skills"
+      },
+      {
+        "type": "link",
+        "to": "about",
+        "title": "About"
+      }
+    ],
+    "change_theme":{
+      "title": "change",
+      "icon": "images/magic.png"
+    }
+  },
+  "icons": {
+        "arrow_down": "images/down.png",
+        "arrow_up": "images/up.png"
+  },
+  "themes":[
+    {
+      "title": "theme1",
+      "background_color": "#d4dce3",
+      "color": "#1a6fc4"
+    },
+    {
+      "title": "theme2",
+      "background_color": "#ded6e3",
+      "color": "darkred"
+    },
+    {
+      "title": "theme3",
+      "background_color": "#cde3e2",
+      "color": "darkolivegreen"
+    }
+  ]
+}

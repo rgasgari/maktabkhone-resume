@@ -1,0 +1,14 @@
+.icons-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    margin: 10px;
+}
+
+.my-social-icon .social-svg{
+    color: blue;
+}

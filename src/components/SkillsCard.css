@@ -1,0 +1,24 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    /*justify-items: center;*/
+    width: 180px;
+    height: 250px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0,0, 0.19);
+    margin: 10px;
+    background-color: white;
+}
+.card-image{
+    /*width: 150px;*/
+    /*height: 150px;*/
+    margin: 2% 2% 2% 2%;
+}
+
+.card-title{
+    padding: 0 5px;
+    text-align: left;
+}
+
+.card:hover{
+    box-shadow: 0 5px 1px 1px rgba(0, 0, 0, 0.1), 0 5px 1px 1px rgba(0, 0,0, 0.19);
+}
